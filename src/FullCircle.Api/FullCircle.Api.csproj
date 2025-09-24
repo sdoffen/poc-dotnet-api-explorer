@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FullCircle.Extensions.WebApi\FullCircle.Extensions.WebApi.csproj" />
+    <ProjectReference Include="..\FullCircle.Api.Dto\FullCircle.Api.Dto.csproj" />
+    <ProjectReference Include="..\FullCircle.Extensions.ProblemDetails\FullCircle.Extensions.ProblemDetails.csproj" />
+  </ItemGroup>
+
+</Project>
